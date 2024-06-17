@@ -3,179 +3,191 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Duo Studio</title>
-    <link rel="icon" type="image/x-icon" href="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg">
-    <link rel="stylesheet" href="./style.css" />
+    <title>SamxPortfolio</title>
+    <!-- Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bai Jamuree Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    
   </head>
   <body>
-    <div class="cursor"></div>
-    <nav>
-      <img
-        src="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg"
-        alt=""
-      />
-      <div class="mid-nav">
-        <h4>Home</h4>
-        <h4>Work</h4>
-        <h4>Studio</h4>
-        <h4>Contact</h4>
-      </div>
-      <div class="circle"></div>
-    </nav>
-    <!-- <div id="purple"></div> -->
-    <div class="main"> 
-
-      <div class="page1">       
-        <h1 class="heading">A design studio made</h1>
-        <h2 class="heading">to elevate your brand</h2>
-        <p>We build brand identities, creative websites, and visual narratives that showcase the full extent of your potential.
-          Based in Washington DC, working with clients world-wide.</p>
-        <video loop muted autoplay src="./assests/Duo Reel--Desktop-reduced.mp4"></video>
-      </div>
-      <div class="page2">
-        <h1>We are Duo Studio,</h1>
-        <div class="p2-container">
-          <div class="p2-left">
-            <h2>A CREATIVE
-              COLLECTIVE
-              MADE TO UNLOCK
-              YOUR BRAND’S
-              POTENTIAL</h2>
+    <div class="main">
+      <nav>
+        <div id="logo">
+          <h1>{ PORTFOLIO }</h1>
+        </div>
+        <div id="navbar">
+          <!-- <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">My Work</a></li>
+            <li><a href="#contact" ><span id="contact-me">Contact me</span></a></li>
+          </ul> -->
+          <a href="./assets/Resume.pdf" target="_blank" <button id="resume">Resume</button></a>
+        </div>
+      </nav>
+      <div id="page1" class="page">
+        <div class="container">
+          <div class="left">
+            <div class="l1">
+              <h1>Hey,</h1>
+              <h1>I'm <span id="name">Sameer</span></h1>
+              <p>Web Developer</p>
+            </div>
           </div>
-          <div class="p2-right">
-            <p>We weave together bold strategy and creative execution to produce thought-provoking digital
-              experiences. We take a highly personalized approach to delivering branding, web design, and
-              content marketing solutions. Born in the DC area - now serving clients worldwide.</p>
-            <button>About us</button>
+          <div class="right r1">
+            <img src="./assets/profile-2.jpg" height="350px" alt="" />
           </div>
         </div>
       </div>
-      <div class="page3">
-        <h1>Featured <br> Work</h1>
-            <div class="p3-container">
-                <img src="./assests/img1.webp"
-                    alt="">
-                <video autoplay loop muted
-                    src="./assests/video1.mp4"></video>
+      <div id="page2" class="page">
+        <div class="heading">
+          <h1>ABOUT ME</h1>
+        </div>
+        <div class="container">
+          <div class="left l2">
+            <div class="text">
+              <h2>I am A FrontEnd Web Developer</h2>
+              <p>
+                I specialize in creating dynamic, interactive user interfaces
+                using HTML5, CSS3, and JavaScript. I am proficient in frameworks
+                and libraries such as Bootstrap for responsive design, GSAP for
+                animations, and Scroll Trigger to enhance user experience. My
+                projects focus on building visually appealing, user-friendly
+                websites that are compatible across various devices.
+              </p>
             </div>
-            <div class="p3-container2">
-              <video autoplay loop muted
-                  src="./assests/video2.mp4"></video>
-              <img src="./assests/img2.webp"
-                  alt="">
           </div>
-      </div>
-      <div class="page4">
-        <div class="elem">
-          <img src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
-              alt="">
-          <div class="text-div">
-              <h1>Strategy</h1>
-              <h1>Strategy</h1>
+          <div class="right r2">
+            <img src="./assets/profile-img.jpg" alt="" />
           </div>
-          <img src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
-              alt="">
-        </div>
-        <div class="elem">
-          <img src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
-              alt="">
-          <div class="text-div">
-              <h1>Identity</h1>
-              <h1>Identity</h1>
-          </div>
-          <img src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
-              alt="">
-        </div>
-        <div class="elem">
-          <img src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
-              alt="">
-          <div class="text-div">
-              <h1>Experience</h1>
-              <h1>Experience</h1>
-          </div>
-          <img src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
-              alt="">
         </div>
       </div>
-      <div class="page5">
-        <h2><span id="mention">Mentions</span> Clients</h2>
-            <div class="box"
-                data-image="https://images.unsplash.com/photo-1688362809005-e1d27bf427ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-                <h3>Verizon</h3>
-                <h4>2021</h4>
-            </div>
-            <div class="box"
-                data-image="https://images.unsplash.com/photo-1688232543149-5602b136ba11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
-                <h3>Awwwards</h3>
-                <h4>2023</h4>
-            </div>
-            <div class="box"
-                data-image="https://images.unsplash.com/photo-1688103920333-117afda88518?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
-                <h3>Awwwards</h3>
-                <h4>2020</h4>
-            </div>
-            <div class="box"
-                data-image="https://images.unsplash.com/photo-1687913161653-7cddb0ba09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=736&q=80">
-                <h3>Mindsparkle Mag</h3>
-                <h4>2020</h4>
-            </div>
-            <div class="box"
-                data-image="https://images.unsplash.com/photo-1686904423955-b928225c6488?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDg1fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60">
-                <h3>Orpetron</h3>
-                <h4>2020</h4>
-      </div>
-      </div>
-      <footer>
-        <div class="ft-container1">
-          <h1 class="ft-heading">LET'S CREATE AN EXPERIENCE AS <br>
-            REMARKABLE AS YOUR BUSINESS</h1>
-          <div class="magnet">Get in Touch</div>
+      <div id="page3" class="page">
+        <div class="heading">
+          <h1>SKILLS</h1>
         </div>
-        <div class="ft-container2">
-          <div class="ft-left">
-            <h2>Don't miss out. Stay in the loop.</h2>
-            <div class="email">
-              <input type="email" placeholder="Your Email" name="email" >
-              <button>
-                  Subscribe
-              </button>
-            </div>
-          </div>
-          <div class="ft-right">
-            <div class="div1">
-              <h2>hello@duo-studio.co</h2>
-              <div class="div2">
-                <div class="address">
-                  <h3>Main Hubs</h3>
-                  <h5>DC</h5>
-                  <h5>Maryland</h5>
-                  <h5>Virginia</h5>
-                </div>
-                <div class="social">
-                  <h3>Social</h3>
-                  <h5>Instagram</h5>
-                  <h5>LinkedIn</h5>
-                  <h5>Facebook</h5>
-                </div>
+        <div class="container">
+          <div class="left l3">
+            <div class="text">
+              <div class="skill">
+                <h3>Frontent Design</h3>
+                <p>
+                  I specialize in creating pixel-perfect designs and clean code.
+                </p>
+              </div>
+              <div class="skill">
+                <h3>Responsive Web Design</h3>
+                <p>
+                  Designing responsive designs for seamless user experiences
+                  across all devices
+                </p>
               </div>
             </div>
-            
+          </div>
+          <div class="right r3">
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>GSAP Animation</li>
+              <li>ScrollTrigger</li>
+              <li>JQuery</li>
+            </ul>
           </div>
         </div>
+      </div>
+      <div id="page4" class="page">
+        <div class="heading">
+          <h1>My Work</h1>
+        </div>
+        <div class="container project1">
+          <div class="left l4">
+            <div class="text">
+              <h2>Sidcup Golf Web</h2>
+              <p>
+                This is a UI of a website named "Sidcup Family Golf" which I
+                cloned. This website some interactive features which i added using
+                HTML5, CSS3, JavaScript, Scroll Trigger and GSAP Library.
+              </p>
+            </div>
+          </div>
+          <div class="right r4">
+            <a target="_blank" href="https://sidcup-golf-web.netlify.app/"
+              ><img
+                id="project-bg"
+                src="./assets/image.png"
+                height="400px"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="container project2">
+          <div class="left l4">
+            <div class="text">
+              <h2>DUO STUDIO</h2>
+              <p>
+                This is a UI of a website named "Sidcup Family Golf" which I
+                cloned. This website some interactive features which i added using
+                HTML5, CSS3, JavaScript, Scroll Trigger and GSAP Library.
+              </p>
+            </div>
+          </div>
+          <div class="right r4">
+            <a target="_blank" href="https://duo-studio-web.netlify.app/"
+              ><img
+                id="project-bg"
+                src="./assets/project2.jpg"
+                height="400px" width="700px"
+                alt="project2"
+                style="object-fit: cover;"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <h2>Connect With Me</h2>
+        <div class="social-links">
+          <div class="wrapper">
+            <a target="_blank" href="https://www.instagram.com/sameer07x19/"
+              ><img src="./assets/instagram-line.png" alt=""
+            /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/sameer07x19/"
+              ><img src="./assets/linkedin-box-fill.png" alt=""
+            /></a>
+            <a target="_blank" href="https://x.com/sameer07x19"
+              ><img src="./assets/twitter-x-line.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>
+          © 2024. Designed by Sameer. All rights reserved. <br />
+          - More to Come - <br />
+          <span>Stay Tuned</span>
+        </p>
       </footer>
-
-
-
-
-
-
-
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+    <script src="script.js"></script>
   </body>
 </html>
